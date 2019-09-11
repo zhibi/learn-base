@@ -11,7 +11,7 @@ import java.util.Map;
  * @author 执笔
  * @date 2019/9/11 13:44
  */
-public class Solution {
+public class Solution_1 {
     public int[] twoSum(int[] nums, int target) {
         int[]                 arr = new int[2];
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -28,8 +28,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[]    ints     = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
+        Solution_1 solution1 = new Solution_1();
+        int[]      ints      = solution1.twoSum(new int[]{2, 7, 11, 15}, 9);
         System.out.println(ints[0] + " " + ints[1]);
     }
 }
